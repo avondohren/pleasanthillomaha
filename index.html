@@ -1,13 +1,35 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Welcome
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+	<script type="text/javascript">
+		  var timer=true;
+  		var numberslide=new Array();
+      numberslide[0]=["images/274_small.jpg", "images/274.jpg"];
+      numberslide[1]=["images/243_small.jpg", "images/243.jpg"];
+      numberslide[2]=["images/254_small.jpg", "images/254.jpg"];
+      numberslide[3]=["images/257_small.jpg", "images/257.jpg"];
+		  numberslide[4]=["images/247_small.jpg", "images/254.jpg"];
+		  numberslide[5]=["images/285_small.jpg", "images/285.jpg"];
+		  numberslide[6]=["images/283_small.jpg", "images/283.jpg"];
+      
+      var mylinkcolor="black"; //specify default color of number links
+      var currColor="green"; //specify default color of number links
+      var currentindex="";
+	</script>
+
+	<div class="WelcomeText">
+		<p>Welcome to the web site of Pleasant Hill Cemetery.  We are a small cemetery established in 1863, located just south of the Jewish Community Center on the east side of 132nd Street between Pacific and Dodge Streets in west Omaha, Nebraska.  We have no paid staff and no office on site.  We&#39;re managed by an unpaid, all volunteer board.  If you need to contact us, please see our list of directors.</p>
+	</div>
+
+	<div class="PicRight" id="slideshowContainer">
+		<div id="imagecontainer">
+			<script type="text/javascript">changeslides(0)</script>
+		</div>
+		<div id="numberDiv">
+			<script type="text/javascript">createnumbers()</script>
+		</div>
+	</div>
 </div>
