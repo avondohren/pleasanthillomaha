@@ -1,3 +1,13 @@
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
 body { margin: 0px; 
 	text-align: left; 
 	height: 100%; 
@@ -64,3 +74,19 @@ p{font-family: "Trebuchet MS", Verdana, Arial; font-size:16px;}
 h1{font-family: "Trebuchet MS", Verdana, Arial; font-size:24px; text-align: center;}
 h2{font-family: "Trebuchet MS", Verdana, Arial; font-size:18px; text-align: center;}
 
+.OWHpic {
+  float: left;
+  padding-right: 15px;
+}
+
+.OWH {
+  float: left;
+}
+
+.spc {
+  clear: both;
+}
+
+.bold {
+  text-weight: bold;
+}
