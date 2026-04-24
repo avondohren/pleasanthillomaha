@@ -88,5 +88,10 @@ h2{font-family: "Trebuchet MS", Verdana, Arial; font-size:18px; text-align: cent
 }
 
 .bold {
-  text-weight: bold;
+  font-weight: bold;
 }
+
+table { border-collapse: collapse; width: 100%; table-layout: fixed; font-family: "Trebuchet MS", Verdana, Arial; font-size: 16px; }
+td { word-wrap: break-word; }
+th, td { border: 1px solid #989F52; padding: 4px 8px; text-align: left; }
+th { background: #989F52; color: white; }
