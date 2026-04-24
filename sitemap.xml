@@ -38,4 +38,8 @@
   <loc>http://www.pleasanthillomaha.com/location.html</loc>
   <changefreq>weekly</changefreq>
 </url>
+<url>
+  <loc>http://www.pleasanthillomaha.com/graves.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
 </urlset>
